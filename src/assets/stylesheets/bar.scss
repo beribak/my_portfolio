@@ -1,0 +1,51 @@
+
+.loaders-container {
+	width: 100vw;
+	height: 100vh;
+	background-color: salmon;
+	
+	.bar {
+	height: 10px;
+	width: 0px;
+	background: purple;
+	transition: 2s;
+	cursor: pointer;
+	}
+
+	&:hover{
+		.bar {
+			animation-name: expand;
+			animation-duration: 2s;
+			animation-fill-mode: forwards;
+		}				
+	};
+}
+
+@keyframes expand {
+	from{width: 0px;}
+	to{width: 200px;}
+}
+
+.loaders-container-list {
+	width: 40vw;
+	margin: auto;
+	padding: 40px;
+	/*background-color: salmon;*/
+}
+
+
+.loaders {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 50px;
+}
+
+.myContainer {
+	height: 10px;
+	width: 250px;
+	background-color: grey;
+	padding: 0px;
+	margin-left: 20px;
+	/*display: flex;*/
+}

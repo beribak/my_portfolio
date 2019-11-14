@@ -1,0 +1,21 @@
+@import "./bar.scss";
+@import "./header.scss";
+@import "./project-card.scss";
+
+body {
+  font-family: Helvetica;
+}
+
+.projects-container {
+	width: 100vw;
+	/*height: 100vh;*/
+	background-color: rgba(100, 100, 100, 0.1);
+	padding: 30px 0px;
+	/*display: flex;*/
+}
+
+
+
+
+
+

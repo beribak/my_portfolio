@@ -6,7 +6,7 @@ import { createStore, combineReducers } from 'redux';
 
 // internal modules
 import App from './components/app';
-import '../assets/stylesheets/application.scss';
+import './assets/stylesheets/application.scss';
 
 // State and reducers
 const reducers = combineReducers({

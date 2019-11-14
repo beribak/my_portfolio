@@ -1,0 +1,94 @@
+.projects-card-container {
+	display: flex;
+	margin: auto;
+	width: 60vw;
+	/*background-color: rgba(0, 0, 0, 0.1);*/
+}
+
+.project-card {
+	position: relative;
+	/*border: 1px solid white;*/
+	text-align: center;
+	margin: 40px 0px;
+	height: 375px;
+	width: 33vw;
+
+	.image {
+		width: 230px;
+		height: 375px;
+	}
+
+	.card-text {
+		/*text-align: center;*/
+		padding: 20px;
+		cursor: pointer;
+		position: absolute;
+		top: 80px;
+		opacity: 0;
+	}
+
+	.source-link {
+		opacity: 0;
+		position: absolute;
+		bottom: 20px;
+		right: 15px;
+		border-radius: 40px;
+	}
+
+	.project-link {
+		opacity: 0;
+		position: absolute;
+		bottom: 20px;
+		left: 15px;
+		border-radius: 40px;	
+	} 
+
+	&:hover{
+
+		.image {
+			opacity: 0;
+			animation-name: fadeOut;
+			animation-duration: 2s;
+			animation-fill-mode: forwards;
+		}	
+		.card-text {
+			opacity: 1;
+			animation-name: fadeIn;
+			animation-duration: 3s;
+			animation-fill-mode: forwards;
+			/*color: white;*/
+		}
+		.source-link {
+			opacity: 1;
+			animation-name: fadeIn;
+			animation-duration: 3s;
+			animation-fill-mode: forwards;
+		}
+		.project-link {
+			opacity: 1;
+			animation-name: fadeIn;
+			animation-duration: 3s;
+			animation-fill-mode: forwards;
+		}
+	}
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.1;
+  }
+
+}
