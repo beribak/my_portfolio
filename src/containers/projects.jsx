@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Project from './project';
-import Loader from './loader';
 import projects from '../projects_data.js';
 
 class Projects extends Component {
