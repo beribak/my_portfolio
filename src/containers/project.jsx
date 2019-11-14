@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import logo from '../pic1.png';
+// import logo from '../pic1.png';
 
 class Project extends Component {
 
 	render() {
 		return(
 			<div className="project-card">
-				<img src={this.props.project.imageUrl} className="image" />
+				<img src={this.props.project.imageUrl} className="image" alt="danko" />
 				<div className="card-text">
 					<h2>{this.props.project.name}</h2>
 					<h4>{this.props.project.text}</h4>
