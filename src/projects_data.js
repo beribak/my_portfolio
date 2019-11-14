@@ -1,6 +1,6 @@
 const projects = [
 	{
-		imageUrl: "../pic1.png", 
+		imageUrl: "logo", 
 		name: "buddyUp",
 		text: "social app for finding like-minded people",
 		sourceLink: "https://github.com/khoa165/buddyUp",
