@@ -11,17 +11,33 @@
 	margin: 0px;
 	padding-top: 200px;
 	color: white;
-	animation-name: slideInFromLeft;
-	animation-duration: 4s;
-	animation-iteration-count: 1;
+	font-size: 60px;
+	/*animation-name: slideInFromLeft;
+	animation-duration: 1s;
+	animation-iteration-count: 1;*/
 	/*animation-fill-mode: forwards;*/
 }
 
+.my-work-btn {
+	/*animation-name: slideInFromRight;
+	animation-duration: 1s;
+	animation-iteration-count: 1;*/
+}
+/*
 @keyframes slideInFromLeft {
   from {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
   to {
     transform: translateX(0);
   }
 }
+
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(800%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}*/
