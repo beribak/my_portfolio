@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-// import logo from '../pic1.png';
+import pic1 from '../pic1.png';
+import pic2 from '../pic2.PNG';
+import pic3 from '../pic3.PNG';
 
 class Project extends Component {
 
