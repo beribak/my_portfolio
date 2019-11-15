@@ -8,7 +8,7 @@ class Project extends Component {
 	render() {
 		return(
 			<div className="project-card">
-				<img src={this.props.project.imageUrl} className="image" alt="danko" />
+				<img src={this.props.pic} className="image" alt="danko" />
 				<div className="card-text">
 					<h2>{this.props.project.name}</h2>
 					<h4>{this.props.project.text}</h4>
