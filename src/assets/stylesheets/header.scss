@@ -9,6 +9,7 @@
 
 .header h1 {
 	margin: 0px;
+	margin-bottom: 23px;
 	padding-top: 200px;
 	color: white;
 	font-size: 60px;
@@ -19,9 +20,19 @@
 }
 
 .my-work-btn {
+	background-color: salmon;
+	padding: 10px 20px;
+	margin: auto;
+	border: 2px solid white;
+	width: 150px;
 	/*animation-name: slideInFromRight;
 	animation-duration: 1s;
 	animation-iteration-count: 1;*/
+}
+
+.my-work-btn a {
+	text-decoration: none;
+	font-size: 20px;
 }
 /*
 @keyframes slideInFromLeft {

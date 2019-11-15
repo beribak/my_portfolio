@@ -6,7 +6,9 @@ class Header extends Component {
 		return(
 			<div className="header">
 				<h1>Danko Beribak</h1>
-				<a href="#load" className="btn btn-danger my-work-btn">My work</a>
+				<div className="my-work-btn">
+					<a href="#load">My work</a>
+				</div>
 			</div>
 		);
 	}
