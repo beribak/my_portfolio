@@ -7,7 +7,9 @@ class About extends Component {
 
 		return(	
 			<div className="about-container">
-				<div className="about-paragraph"></div>
+				<div className="about-paragraph">
+					<h3>sadasdsadsad asdfasdsa asdasdasdas asddasdasdasd sdfdfdsf</h3>
+				</div>
 				<div className="loaders-container-list">
 					<Loader icon="js-square"/>
 					<Loader icon="css3-alt"/>
