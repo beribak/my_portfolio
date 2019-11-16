@@ -26,15 +26,15 @@
 }
 
 @keyframes expand {
-	from{width: 0px;}
-	to{width: 200px;}
+	from{width: 0%;}
+	to{width: 70%;}
 }
 
 .about-paragraph {
 	/*width: 500px;*/
 	text-align: center;
 	padding-top: 70px;
-	background-color: grey;
+	/*background-color: grey;*/
 	/*flex: 1;*/
 }
 
@@ -50,7 +50,7 @@
 	position: relative;
 	background-color: salmon;
 	height: 80px;
-	width: 40vw;
+	width: 45vw;
 	margin: auto;
 	/*display: flex;*/
 	/*justify-content: space-around;*/
@@ -60,19 +60,19 @@
 
 .myContainer {
 	height: 10px;
-	width: 250px;
+	width: 40%;
 	background-color: grey;
 	padding: 0px;
 	/*margin-left: 20px;*/
 	position: absolute;
-	right: 80px;
-	bottom: 30px;
+	right: 20%;
+	bottom: 35%;
 	/*display: flex;*/
 }
 
 .icon {
 	position: absolute;
-	left: 80px;
-	bottom: 10px;	
+	left: 20%;
+	bottom: 15%;	
 }
 

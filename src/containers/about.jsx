@@ -15,6 +15,7 @@ class About extends Component {
 					<Loader icon="css3-alt"/>
 					<Loader icon="html5"/>
 					<Loader icon="react"/>
+					<Loader icon="sass"/>
 				</div>
 			</div>				
 		);

@@ -3,6 +3,7 @@ import React from 'react';
 import Header from '../containers/header';
 import Projects from '../containers/projects';
 import About from '../containers/about';
+import Footer from '../containers/footer';
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Header />
       <Projects />
       <About />
+      <Footer />
     </div>
   );
 };
