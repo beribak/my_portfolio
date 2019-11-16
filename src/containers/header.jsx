@@ -8,6 +8,7 @@ class Header extends Component {
 				<h1>Danko Beribak</h1>
 				<div className="my-work-btn">
 					<a href="#load">My work</a>
+					<i class="fas fa-arrow-alt-circle-right arrow"></i>
 				</div>
 			</div>
 		);

@@ -21,24 +21,42 @@
 }
 
 .my-work-btn {
+	width:150px;
+	margin: auto;
 
-}
+	a {
+		border: 2px solid white;
+		padding: 10px 20px;
+		text-decoration: none;
+		font-size: 20px;
+		color: white;
+		translate: 1s;
 
-.my-work-btn:hover {
-	/*transform: rotate(90deg);*/
-}
+		&:hover {
+			border: 3px solid salmon;
+		}	
+		
+	}
 
-.my-work-btn a {
-	border: 2px solid white;
-	padding: 10px 20px;
-	text-decoration: none;
-	font-size: 20px;
-	color: white;
+	.arrow {
+		opacity: 0;
+		margin-top: 20px;
+		color: white;
+		font-size: 40px;
+		display: block;
+		transition: 1s;
+	}
 
 	&:hover {
-		background-color: midnightBlue;
-	}	
-	
+
+		.arrow {
+			transform: rotate(90deg);
+			display: block;
+			opacity: 1;
+			color: salmon;
+		}
+	};
+
 }
 
 
