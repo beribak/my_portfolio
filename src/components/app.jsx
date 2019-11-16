@@ -2,14 +2,14 @@ import React from 'react';
 
 import Header from '../containers/header';
 import Projects from '../containers/projects';
-import Loaders from '../containers/loaders';
+import About from '../containers/about';
 
 const App = () => {
   return (
     <div className="">
       <Header />
       <Projects />
-      <Loaders />
+      <About />
     </div>
   );
 };

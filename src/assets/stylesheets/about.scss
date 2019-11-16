@@ -1,8 +1,9 @@
 
-.loaders-container {
+.about-container {
 	width: 100vw;
 	height: 100vh;
 	background-color: salmon;
+	display: flex;
 	
 	.bar {
 	height: 10px;
@@ -26,18 +27,24 @@
 	to{width: 200px;}
 }
 
-.loaders-container-list {
-	width: 40vw;
-	margin: auto;
-	padding: 40px;
-	/*background-color: salmon;*/
+.about-paragraph {
+	width: 50vw;
 }
 
+.loaders-container-list {
+	width: 50vw;
+	padding: 50px;
+	/*text-align: center;*/
+	background-color: black;
+}
 
+	
 .loaders {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	position: relative;
+	background-color: salmon;
+	/*display: flex;*/
+	/*justify-content: space-around;*/
+	/*align-items: center;*/
 	font-size: 50px;
 }
 
@@ -46,6 +53,16 @@
 	width: 250px;
 	background-color: grey;
 	padding: 0px;
-	margin-left: 20px;
+	/*margin-left: 20px;*/
+	position: absolute;
+	right: 20px;
+	bottom: 35px;
 	/*display: flex;*/
 }
+
+.icon {
+	position: absolute;
+	left: 20px;
+	bottom: 5px;	
+}
+

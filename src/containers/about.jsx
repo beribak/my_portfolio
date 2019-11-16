@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import Loader from './loader';
 
-class Loaders extends Component {
+class About extends Component {
 
 	render() {
 
 		return(	
-			<div className="loaders-container">
+			<div className="about-container">
+				<div className="about-paragraph"></div>
 				<div className="loaders-container-list">
 					<Loader icon="js-square"/>
 					<Loader icon="css3-alt"/>
@@ -18,4 +19,4 @@ class Loaders extends Component {
 	}
 }
 
-export default Loaders;
+export default About;
