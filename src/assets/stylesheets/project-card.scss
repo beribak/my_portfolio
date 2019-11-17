@@ -27,14 +27,46 @@
 		opacity: 0;
 	}
 
+	.tech-stack {
+		opacity: 0;
+		position: absolute;
+		width: 89%;
+		top: 190px;
+		display: flex;
+		justify-content: center;
+	}
+
 	.small-rails {
 		background-image: url("https://icon-library.net/images/ruby-on-rails-icon/ruby-on-rails-icon-24.jpg");
 		background-size: cover;
-		width: 30px;
-		height: 30px;	
-		opacity: 0;
-		position: absolute;
-		top: 190px;
+		width: 40px;
+		height: 40px;
+		margin: 0px 1px;	
+	}
+
+	.small-react {
+		background-image: url("https://i.ytimg.com/vi/0d9HE0nu1Mw/hqdefault.jpg");
+		background-size: cover;
+		background-position: center;
+		width: 40px;
+		height: 40px;
+		margin: 0px 1px;	
+	}
+
+	.small-redux {
+		background-image: url("https://cdn.auth0.com/blog/redux-tutorial/logo.png");
+		background-size: cover;
+		width: 40px;
+		height: 40px;
+		margin: 0px 1px;	
+	}
+
+	.small-javascript {
+		background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png");
+		background-size: cover;
+		width: 40px;
+		height: 40px;
+		margin: 0px 1px;	
 	}
 
 	.source-link {
@@ -69,7 +101,7 @@
 			/*color: white;*/
 		}
 
-		.small-rails {
+		.tech-stack {
 			opacity: 1;
 			animation-name: fadeIn;
 			animation-duration: 3s;
