@@ -23,8 +23,18 @@
 		padding: 20px;
 		cursor: pointer;
 		position: absolute;
-		top: 80px;
+		top: 20px;
 		opacity: 0;
+	}
+
+	.small-rails {
+		background-image: url("https://icon-library.net/images/ruby-on-rails-icon/ruby-on-rails-icon-24.jpg");
+		background-size: cover;
+		width: 30px;
+		height: 30px;	
+		opacity: 0;
+		position: absolute;
+		top: 190px;
 	}
 
 	.source-link {
@@ -58,6 +68,14 @@
 			animation-fill-mode: forwards;
 			/*color: white;*/
 		}
+
+		.small-rails {
+			opacity: 1;
+			animation-name: fadeIn;
+			animation-duration: 3s;
+			animation-fill-mode: forwards;	
+		}
+
 		.source-link {
 			opacity: 1;
 			animation-name: fadeIn;
