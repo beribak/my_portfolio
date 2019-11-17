@@ -1,0 +1,29 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid salmon;	
+
+	.left {
+
+		a {
+			margin-left: 15px;
+		}
+	}
+
+	.right {
+		a {
+			margin-right: 15px;
+		}
+	}
+
+}
+
+a {
+	color: gray;
+	font-size: 18px;
+
+	&:hover {
+		color: salmon;
+		text-decoration: none;
+	}
+}
