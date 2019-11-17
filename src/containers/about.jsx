@@ -11,11 +11,11 @@ class About extends Component {
 					<h3>sadasdsadsad asdfasdsa asdasdasdas asddasdasdasd sdfdfdsf</h3>
 				</div>
 				<div className="loaders-container-list col-sm-6">
-					<Loader icon="js-square"/>
-					<Loader icon="css3-alt"/>
-					<Loader icon="html5"/>
-					<Loader icon="react"/>
-					<Loader icon="sass"/>
+					<i className="icon fab fa-square" ></i>
+					<i className="icon fab fa-css3-alt" ></i>
+					<i className="icon fab fa-html5" ></i>
+					<i className="icon fab fa-react" ></i>
+					<i className="icon fab fa-sass" ></i>
 				</div>
 			</div>				
 		);
