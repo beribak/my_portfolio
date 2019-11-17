@@ -31,7 +31,7 @@
 		opacity: 0;
 		position: absolute;
 		width: 89%;
-		top: 190px;
+		top: 220px;
 		display: flex;
 		justify-content: center;
 	}
@@ -69,20 +69,33 @@
 		margin: 0px 1px;	
 	}
 
+	
+	a {
+		border: 2px solid salmon;
+		padding: 5px 10px;
+		text-decoration: none;
+		font-size: 20px;
+		color: salmon;
+		translate: 1s;
+
+		&:hover {
+			border: 2px solid white;
+			color: white;
+		}	
+		
+	}
 	.source-link {
 		opacity: 0;
-		position: absolute;
-		bottom: 20px;
-		right: 15px;
-		border-radius: 40px;
+		/*display: block;*/
+		position: relative;
+		bottom: 60px;
 	}
 
 	.project-link {
 		opacity: 0;
-		position: absolute;
-		bottom: 20px;
-		left: 15px;
-		border-radius: 40px;	
+		/*display: block;*/
+		position: relative;
+		bottom: 60px;
 	} 
 
 	&:hover{

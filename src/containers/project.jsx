@@ -17,8 +17,8 @@ class Project extends Component {
 					<div className={logo[2]}/>
 					<div className={logo[3]}/>
 				</div>
-				<a href={this.props.project.sourceLink} target="#" className="btn btn-primary source-link" >Source Code</a>
-				<a href={this.props.project.projectLink} target="#" className="btn btn-success project-link" >Link</a>
+				<a href={this.props.project.sourceLink} target="#" className="source-link" >Source Code</a>
+				<a href={this.props.project.projectLink} target="#" className="project-link" >Link</a>
 			</div>
 		);
 	}
