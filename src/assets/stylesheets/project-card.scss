@@ -1,17 +1,15 @@
 .projects-card-container {
-	/*display: flex;*/
 	margin: auto;
 	width: 60vw;
+	box-sizing: border-box;
 	/*background-color: rgba(0, 0, 0, 0.1);*/
 }
 
 .project-card {
 	position: relative;
-	/*border: 1px solid white;*/
 	text-align: center;
 	margin: 40px 0px;
 	height: 375px;
-	/*width: 33vw;*/
 
 	.image {
 		width: 230px;
@@ -71,16 +69,16 @@
 
 	
 	a {
-		border: 2px solid salmon;
+		border: 2px solid rgba(0, 0, 0, 0.7);
 		padding: 5px 10px;
 		text-decoration: none;
 		font-size: 20px;
-		color: salmon;
+		color: rgba(0, 0, 0, 0.7);
 		translate: 1s;
 
 		&:hover {
-			border: 2px solid white;
-			color: white;
+			border: 2px solid salmon;
+			color: salmon;
 		}	
 		
 	}
@@ -89,6 +87,7 @@
 		/*display: block;*/
 		position: relative;
 		bottom: 60px;
+		right: 5px;
 	}
 
 	.project-link {
@@ -96,6 +95,7 @@
 		/*display: block;*/
 		position: relative;
 		bottom: 60px;
+		left: 5px;
 	} 
 
 	&:hover{
@@ -151,7 +151,7 @@
     opacity: 1;
   }
   to {
-    opacity: 0.1;
+    opacity: 0.3;
   }
 
 }

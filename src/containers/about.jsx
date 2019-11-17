@@ -10,7 +10,7 @@ class About extends Component {
 				<div className="about-paragraph col-sm-6">
 					<h3>sadasdsadsad asdfasdsa asdasdasdas asddasdasdasd sdfdfdsf</h3>
 				</div>
-				<div className="loaders-container-list col-sm-6">
+				<div className="logos col-sm-6">
 					<div className="rails">
 					</div>
 				</div>

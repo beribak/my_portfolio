@@ -7,22 +7,6 @@
 	/*flex-flow: wrap;*/
 	/*flex-direction: column;*/
 	/*justify-content: center;*/
-	
-	.bar {
-	height: 10px;
-	width: 0px;
-	background: purple;
-	transition: 2s;
-	cursor: pointer;
-	}
-
-	&:hover{
-		.bar {
-			animation-name: expand;
-			animation-duration: 2s;
-			animation-fill-mode: forwards;
-		}				
-	};
 }
 
 @keyframes expand {
@@ -38,41 +22,10 @@
 	/*flex: 1;*/
 }
 
-.loaders-container-list {
-	/*width: 800px;*/
-	padding: 50px 0px;
-	background-color: black;
-	/*flex: 1;*/
+.logos {
+	padding: 30px;
 }
+
 
 	
-.loaders {
-	position: relative;
-	background-color: salmon;
-	height: 80px;
-	width: 45vw;
-	margin: auto;
-	/*display: flex;*/
-	/*justify-content: space-around;*/
-	/*align-items: center;*/
-	font-size: 50px;
-}
-
-.myContainer {
-	height: 10px;
-	width: 40%;
-	background-color: grey;
-	padding: 0px;
-	/*margin-left: 20px;*/
-	position: absolute;
-	right: 20%;
-	bottom: 35%;
-	/*display: flex;*/
-}
-
-.icon {
-	position: absolute;
-	left: 20%;
-	bottom: 15%;	
-}
 
