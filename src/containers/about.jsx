@@ -6,6 +6,7 @@ class About extends Component {
 	render() {
 
 		return(	
+			<div className="container-fluid">
 			<div className="about-container row" id="about">
 				<div className="about-paragraph col-sm-6">
 					<h3>sadasdsadsad asdfasdsa asdasdasdas asddasdasdasd sdfdfdsf</h3>
@@ -15,6 +16,7 @@ class About extends Component {
 					</div>
 				</div>
 			</div>				
+			</div>
 		);
 	}
 }
