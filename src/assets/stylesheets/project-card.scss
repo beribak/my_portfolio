@@ -41,6 +41,7 @@
 	}
 
 	.tech-stack {
+		margin-top: 20px;
 		opacity: 0;
 		display: flex;
 		justify-content: center;
@@ -89,14 +90,14 @@
 		translate: 1s;
 
 		&:hover {
-			border: 2px solid gray;
-			color: gray;
+			border: 2px solid salmon;
+			color: salmon;
 		}	
 		
 	}
 	.source-link {
 		opacity: 0;
-		vertical-align: bottom;
+		
 	}
 
 	.project-link {
@@ -110,11 +111,11 @@
 		}
 
 	&:hover{
-		transform: rotateY(360deg);
+		/*transform: rotateY(360deg);*/
 
 		.card-content {
-			background-color: salmon;
-			/*opacity: 0.9;*/
+			background-color: black;
+			opacity: 0.9;
 		}
 
 		.card-text {
