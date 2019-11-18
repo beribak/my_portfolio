@@ -5,8 +5,11 @@ class Project extends Component {
 	render() {
 		const logo = this.props.logo;
 		const image = this.props.image;
+		let cl = "project-card col-sm-4";
+		cl += image;
+		
 		return(
-			<div className="project-card col-sm-4" style={{backgroundImage: url(`${image}`)}}>
+			<div className={cl}>
 				<div className="card-text">
 					<h2>{this.props.project.name}</h2>
 					<h4>{this.props.project.text}</h4>
