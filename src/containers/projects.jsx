@@ -18,7 +18,7 @@ class Projects extends Component {
 			
 				<div className="projects-container">
 					<div className="projects-card-container row" id="load" >
-						<Project project={projects[0]} pic={pic1} logo={arr1}/>
+						<Project project={projects[0]} pic={pic1} logo={arr1} image="../pic1.png" />
 						<Project project={projects[1]} pic={pic2} logo={arr2}/>
 						<Project project={projects[2]} pic={pic3} logo={arr3}/> 
 					</div>

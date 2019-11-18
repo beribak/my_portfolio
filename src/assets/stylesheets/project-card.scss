@@ -1,34 +1,38 @@
+.projects-container {
+	/*width: 100vw;*/
+	background-color: rgba(100, 100, 100, 0.1);
+	padding: 30px 0px;
+}
+
 .projects-card-container {
 	margin: auto;
 	width: 60vw;
 	/*box-sizing: border-box;*/
 	text-align: center;
 	/*background-color: rgba(0, 0, 0, 0.1);*/
+	background-size: cover;
 }
 
 .project-card {
+	/*background-image: url('../../pic1.png');*/
+	background-size: cover;
 	position: relative;
 	margin: 40px 0px;
 	height: 375px;
-
-	.image {
-		width: 230px;
-		height: 375px;
-	}
+	transition: 2s;
 
 	.card-text {
 		padding: 20px;
 		cursor: pointer;
-		position: absolute;
-		top: 20px;
+		/*position: absolute;*/
+		/*top: 20px;*/
 		opacity: 0;
 	}
 
 	.tech-stack {
 		opacity: 0;
-		position: absolute;
-		width: 89%;
-		top: 220px;
+		/*position: absolute;*/
+		/*top: 220px;*/
 		display: flex;
 		justify-content: center;
 	}
@@ -83,28 +87,21 @@
 	}
 	.source-link {
 		opacity: 0;
+		/*margin-bottom: 10px;*/
+		vertical-align: bottom;
 		/*display: block;*/
-		position: relative;
-		bottom: 60px;
-		right: 5px;
 	}
 
 	.project-link {
 		opacity: 0;
 		/*display: block;*/
-		position: relative;
-		bottom: 60px;
-		left: 5px;
 	} 
 
 	&:hover{
 
-		.image {
-			opacity: 0;
-			animation-name: fadeOut;
-			animation-duration: 2s;
-			animation-fill-mode: forwards;
-		}	
+		background-color: salmon;
+		background-image: none;
+
 		.card-text {
 			opacity: 1;
 			animation-name: fadeIn;
@@ -150,7 +147,7 @@
     opacity: 1;
   }
   to {
-    opacity: 0.3;
+    opacity: 0.1;
   }
 
 }
