@@ -1,11 +1,15 @@
 .footer {
 	width: 100%;
-	padding-top: 20vh;
+	padding-top: 15vh;
 	font-size: 45px;
 	text-align: center;
 	height: 60vh;
 	color: white;
 	background-color: rgba(0, 0, 0, 0.8);
+
+	.email {
+		font-size: 22px;
+	}
 }
 
 .icons i {
