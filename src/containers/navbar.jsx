@@ -8,12 +8,12 @@ class Navbar extends Component {
 			<div className="navbar">
 				<div className="left">
 					<a href="#load" >Projects</a>
-					<a href="#about" >About</a>
+					
 					<a href="#footer" >Contact</a>
 				</div>
 				<div className="right">
 					<a href="https://github.com/beribak" target="#" className="git-nav"><i class="fab fa-github"></i></a>
-					<a href="#" >Resume</a>
+					
 				</div>
 			</div>				
 		);
