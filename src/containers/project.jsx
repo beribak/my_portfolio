@@ -21,15 +21,15 @@ class Project extends Component {
 						<div className={logo[2]}/>
 						<div className={logo[3]}/>
 					</div>
-					<div className="p-3 mt-2">
-						<div >
+					<div className="p-3 card-links">
+						
 						<div className="mb-3">
 							<a href={this.props.project.sourceLink} target="#" className="source-link" >Source Code</a>
 						</div>
 						<div>
 							<a href={this.props.project.projectLink} target="#" className="project-link" >Link</a>
 						</div>
-						</div>	
+							
 					</div>
 				</div>
 			</div>
