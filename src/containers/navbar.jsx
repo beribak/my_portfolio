@@ -8,7 +8,7 @@ class Navbar extends Component {
 			<div className="navbar">
 				<div className="left">
 					<a href="#load" >Projects</a>
-					
+					<a href="#about" >About</a>
 					<a href="#footer" >Contact</a>
 				</div>
 				<div className="right">
