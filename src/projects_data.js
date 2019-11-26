@@ -2,7 +2,7 @@ const projects = [
 	{
 		imageUrl: "pic1", 
 		name: "buddyUp",
-		text: "app for finding like-minded people",
+		text: "mobile app for finding like-minded people",
 		sourceLink: "https://github.com/khoa165/buddyUp",
 		projectLink: "https://buddyup.xyz"
 	},
@@ -15,8 +15,8 @@ const projects = [
 	},
 	{
 		imageUrl: "pic3", 
-		name: "Portfolio for a makeup artist",
-		text: "CMS portfolio",
+		name: "Portfolio",
+		text: "build with HTML,CSS and Javascript",
 		sourceLink: "https://github.com/beribak/art-portfolio-jimmy",
 		projectLink: "https://jimmycortes.herokuapp.com"
 	}

@@ -35,9 +35,21 @@
 
 	.card-text {
 		padding: 10px;
-		opacity: 0;
+		opacity: 1;
 		color: white;
+		background-color: black;
+		transform: translateY(255px);
+		background-color: rgba(17, 95, 93, 1);
 
+	}
+
+	.card-text h2 {
+		font-size: 30px;
+		font-weight: bold;
+	}
+
+	.card-text h4 {
+		font-size: 20px;
 	}
 
 	.tech-stack {
@@ -52,7 +64,7 @@
 		border: 2px solid white;
 		padding: 5px 10px;
 		text-decoration: none;
-		font-size: 20px;
+		font-size: 17px;
 		color: white;
 		translate: 1s;
 
@@ -65,7 +77,7 @@
 
 
 	.card-links {
-		margin-top: 80px;
+		margin-top: 110px;
 	}
 
 	.source-link {
@@ -83,6 +95,7 @@
 		width: 100%;
 		height: 100%;
 		transition: 1s;
+		// background-color: rgba(40, 40, 40, 0.5);
 	}
 
 	&:hover{
@@ -94,8 +107,8 @@
 
 		.card-text {
 			opacity: 1;
-			animation-name: fadeIn;
-			animation-duration: 3s;
+			animation-name: moveUp;
+			animation-duration: 1s;
 			animation-fill-mode: forwards;
 			/*color: white;*/
 		}
@@ -141,11 +154,24 @@
   }
 
 }
+
+@keyframes moveUp {
+  from {
+  	// background-color: black;
+    transform: translateY(255px);
+  }
+  to {
+   transform: translateY(0px);
+   background-color: rgba(0, 0, 0, 0);
+  }
+ }
+
+
 	.small-rails {
 		background-image: url("https://icon-library.net/images/ruby-on-rails-icon/ruby-on-rails-icon-24.jpg");
 		background-size: cover;
-		width: 35px;
-		height: 35px;
+		width: 30px;
+		height: 30px;
 		margin: 0px 1px;	
 	}
 
@@ -153,31 +179,31 @@
 		background-image: url("https://i.ytimg.com/vi/0d9HE0nu1Mw/hqdefault.jpg");
 		background-size: cover;
 		background-position: center;
-		width: 35px;
-		height: 35px;
+		width: 30px;
+		height: 30px;
 		margin: 0px 1px;	
 	}
 
 	.small-redux {
 		background-image: url("https://cdn.auth0.com/blog/redux-tutorial/logo.png");
 		background-size: cover;
-		width: 35px;
-		height: 35px;
+		width: 30px;
+		height: 30px;
 		margin: 0px 1px;	
 	}
 
 	.small-javascript {
 		background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png");
 		background-size: cover;
-		width: 35px;
-		height: 35px;
+		width: 30px;
+		height: 30px;
 		margin: 0px 1px;	
 	}
 
 	.small-sql {
 		background-image: url("https://res.cloudinary.com/teepublic/image/private/s--94aIwpBD--/t_Preview/b_rgb:feffff,c_limit,f_jpg,h_630,q_90,w_630/v1548945260/production/designs/4119673_0.jpg");
 		background-size: cover;
-		width: 35px;
-		height: 35px;
+		width: 30px;
+		height: 30px;
 		margin: 0px 1px;	
 	}

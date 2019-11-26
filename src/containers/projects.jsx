@@ -12,7 +12,7 @@ class Projects extends Component {
 		let count = 1;
 		const arr1 = ["small-rails", "small-javascript", "small-sql"];
 		const arr2 = ["small-rails", "small-javascript", "small-sql"];
-		const arr3 = ["small-redux", "small-javascript", "small-react"];
+		const arr3 = ["small-javascript"];
 
 		return(
 			
