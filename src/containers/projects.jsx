@@ -17,7 +17,7 @@ class Projects extends Component {
 		return(
 			
 				<div className="projects-container">
-					<div className="projects-card-container row" id="load" >
+					<div className="projects-card-container" id="load" >
 						<Project project={projects[0]} logo={arr1} image=" pic1" />
 						<Project project={projects[1]} logo={arr2} image=" pic2" />
 						<Project project={projects[2]} logo={arr3} image=" pic3" /> 
