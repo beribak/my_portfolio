@@ -1,138 +1,32 @@
+
 .projects-container {
 	/*width: 100vw;*/
 	background-color: rgba(100, 100, 100, 0.1);
 	padding: 30px 0px;
 }
 
-.pic1 {
-	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-	url('../../pic1.png');
-}
-
-.pic2 {
-	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-	url('../../pic2.PNG');
-}
-
-.pic3 {
-	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-	url('../../pic3.PNG');
-}
-
 .projects-card-container {
+	padding: 10px;
 	margin: auto;
-	width: 60vw;
-	text-align: center;
+	background-color: black;
+	width: 70vw;
+}
+	
+.gif-container {
+	display: flex;
+	// justify-content: space-between;
+	background-color: blue;
+	margin-bottom: 10px;
 }
 
-.project-card {
-	background-size: cover;
-	margin: 40px 0px;
-	padding: 0px;
-	height: 375px;
-	transition: 1s;
-	border-left: 1px solid white;
+.gif {
+	width: 15vw;
+}
 
-	.card-text {
-		padding: 10px;
-		opacity: 1;
-		color: white;
-		background-color: black;
-		transform: translateY(255px);
-		background-color: rgba(17, 95, 93, 1);
-
-	}
-
-	.card-text h2 {
-		font-size: 30px;
-		font-weight: bold;
-	}
-
-	.card-text h4 {
-		font-size: 20px;
-	}
-
-	.tech-stack {
-		/*margin-top: 80px;*/
-		opacity: 0;
-		display: flex;
-		justify-content: center;
-	}
-
-	
-	a {
-		border: 2px solid white;
-		padding: 5px 10px;
-		text-decoration: none;
-		font-size: 17px;
-		color: white;
-		translate: 1s;
-
-		&:hover {
-			border: 2px solid salmon;
-			color: salmon;
-		}	
-		
-	}
-
-
-	.card-links {
-		margin-top: 110px;
-	}
-
-	.source-link {
-		/*margin-top: 80px;*/
-		opacity: 0;
-		
-	}
-
-	.project-link {
-		/*margin-top: 80px;*/
-		opacity: 0;
-	} 
-
-	.card-content {
-		width: 100%;
-		height: 100%;
-		transition: 1s;
-		// background-color: rgba(40, 40, 40, 0.5);
-	}
-
-	&:hover{
-		/*transform: rotateY(360deg);*/
-
-		.card-content {
-			background-color: rgba(40, 40, 40, 0.9);
-		}
-
-		.card-text {
-			opacity: 1;
-			animation-name: moveUp;
-			animation-duration: 1s;
-			animation-fill-mode: forwards;
-			/*color: white;*/
-		}
-
-		.tech-stack {
-			opacity: 1;
-			animation-name: fadeIn;
-			animation-duration: 3s;
-			animation-fill-mode: forwards;	
-		}
-
-		.source-link {
-			opacity: 1;
-			animation-name: fadeIn;
-			animation-duration: 3s;
-			animation-fill-mode: forwards;
-		}
-		.project-link {
-			opacity: 1;
-			animation-name: fadeIn;
-			animation-duration: 3s;
-			animation-fill-mode: forwards;
-		}
-	}
+.project-info {
+	text-align: center;
+	color: white;
+	padding: 40px;
 }
 
 @keyframes fadeIn {
@@ -165,45 +59,18 @@
    background-color: rgba(0, 0, 0, 0);
   }
  }
+// .pic1 {
+// 	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+// 	url('../../pic1.png');
+// }
 
+// .pic2 {
+// 	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+// 	url('../../pic2.PNG');
+// }
 
-	.small-rails {
-		background-image: url("https://icon-library.net/images/ruby-on-rails-icon/ruby-on-rails-icon-24.jpg");
-		background-size: cover;
-		width: 30px;
-		height: 30px;
-		margin: 0px 1px;	
-	}
+// .pic3 {
+// 	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+// 	url('../../pic3.PNG');
+// }
 
-	.small-react {
-		background-image: url("https://i.ytimg.com/vi/0d9HE0nu1Mw/hqdefault.jpg");
-		background-size: cover;
-		background-position: center;
-		width: 30px;
-		height: 30px;
-		margin: 0px 1px;	
-	}
-
-	.small-redux {
-		background-image: url("https://cdn.auth0.com/blog/redux-tutorial/logo.png");
-		background-size: cover;
-		width: 30px;
-		height: 30px;
-		margin: 0px 1px;	
-	}
-
-	.small-javascript {
-		background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png");
-		background-size: cover;
-		width: 30px;
-		height: 30px;
-		margin: 0px 1px;	
-	}
-
-	.small-sql {
-		background-image: url("https://res.cloudinary.com/teepublic/image/private/s--94aIwpBD--/t_Preview/b_rgb:feffff,c_limit,f_jpg,h_630,q_90,w_630/v1548945260/production/designs/4119673_0.jpg");
-		background-size: cover;
-		width: 30px;
-		height: 30px;
-		margin: 0px 1px;	
-	}
