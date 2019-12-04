@@ -24,11 +24,16 @@
 }
 
 .project-info {
+	margin-top: 10px;
 	word-wrap: break-word;
-	// width: 50px;
+	border: 2px solid white;
 	text-align: center;
 	color: white;
 	padding: 40px;
+
+	h2 {
+		color: salmon;
+	}
 
 	.links-container {
 		margin-top: 70px;
@@ -44,8 +49,8 @@
 		width: 30vw;
 
 		&:hover {
-			background-color: black;
-			color: white;
+			border-color: salmon;
+			color: salmon;
 		}
 	}
 }
@@ -59,12 +64,13 @@
 	} 
 
 	.gif {
-	width: 20vw;
+		width: 20vw;
 	}
 
 	.project-info {
 		width: 60vw;
-		// background-color: red;
+		margin-left: 10px;
+		margin-top: 0px;
 		word-wrap: break-word;
 		text-align: center;
 		color: white;
