@@ -16,7 +16,6 @@ class About extends Component {
 						maintaining web applications, and
 						static/dynamic websites.
 					</h3>
-					<img src="../pets.jpg" className="pets" ></img>
 				</div>
 				
 			</div>				

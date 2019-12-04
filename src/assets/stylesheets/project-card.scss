@@ -9,56 +9,91 @@
 	padding: 10px;
 	margin: auto;
 	background-color: black;
-	width: 70vw;
+	width: 80vw;
 }
 	
 .gif-container {
-	display: flex;
+	// display: flex;
+	// flex-wrap: wrap;
 	// justify-content: space-between;
+	text-align: center;
 	background-color: blue;
 	margin-bottom: 10px;
 }
 
 .gif {
-	width: 15vw;
+	width: 60vw;
 }
 
 .project-info {
+	word-wrap: break-word;
+	// width: 50px;
 	text-align: center;
 	color: white;
 	padding: 40px;
+
+	h4 {
+
+	}
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+@media screen and (min-width: 640px){
 
+    .gif-container {
+		display: flex;
+		// flex-wrap: wrap;
+		justify-content: space-between;
+	} 
+
+	.gif {
+	width: 20vw;
+	}
+
+	.project-info {
+		width: 60vw;
+		background-color: red;
+		word-wrap: break-word;
+		text-align: center;
+		color: white;
+		padding: 40px;
+
+		h4 {
+
+		}
+	}   
 }
 
-@keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0.1;
-  }
 
-}
+// @keyframes fadeIn {
+//   from {
+//     opacity: 0;
+//   }
+//   to {
+//     opacity: 1;
+//   }
 
-@keyframes moveUp {
-  from {
-  	// background-color: black;
-    transform: translateY(255px);
-  }
-  to {
-   transform: translateY(0px);
-   background-color: rgba(0, 0, 0, 0);
-  }
- }
+// }
+
+// @keyframes fadeOut {
+//   from {
+//     opacity: 1;
+//   }
+//   to {
+//     opacity: 0.1;
+//   }
+
+// }
+
+// @keyframes moveUp {
+//   from {
+//   	// background-color: black;
+//     transform: translateY(255px);
+//   }
+//   to {
+//    transform: translateY(0px);
+//    background-color: rgba(0, 0, 0, 0);
+//   }
+//  }
 // .pic1 {
 // 	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
 // 	url('../../pic1.png');
