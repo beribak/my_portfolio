@@ -13,6 +13,8 @@ class Project extends Component {
 				<div className="project-info">
 					<h2>PetNow</h2>
 					<h4>kakdkaksdkakskakskakskaskaksak</h4>
+					<a href="#" className="link">See Online</a>
+					<a href="#" className="link">Source</a>
 				</div>
 			</div>
 		);
