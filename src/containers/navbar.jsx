@@ -13,7 +13,7 @@ class Navbar extends Component {
 				</div>
 				<div className="right">
 					<a href="https://github.com/beribak" target="#" className="git-nav"><i class="fab fa-github"></i></a>
-					
+					<a href="https://meta.stackoverflow.com/users/12294707/oknad" target="#" className="git-nav"><i class="fab fa-stack-overflow"></i></a>
 				</div>
 			</div>				
 		);

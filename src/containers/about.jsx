@@ -9,13 +9,13 @@ class About extends Component {
 			
 			<div className="about-container" id="about">
 				<div className="about-paragraph">
-					<h3>I am a web developer, with one year
+					<h5>I am a web developer, with one year
 						of experience and strong knowledge
 						of modern frameworks and libraries. I
 						am capable of building, deploying and
 						maintaining web applications, and
 						static/dynamic websites.
-					</h3>
+					</h5>
 				</div>
 				
 			</div>				
