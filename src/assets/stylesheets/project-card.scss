@@ -1,7 +1,7 @@
 
 .projects-container {
 	/*width: 100vw;*/
-	background-color: rgba(100, 100, 100, 0.1);
+	background-color: rgba(200, 200, 200, 0.7);
 	padding: 30px 0px;
 }
 
@@ -9,7 +9,7 @@
 	padding: 10px;
 	margin: auto;
 	// background-color: black;
-	width: 80vw;
+	width: 70vw;
 }
 	
 .gif-container {
@@ -20,7 +20,11 @@
 }
 
 .gif {
-	width: 60vw;
+	width: 50vw;
+	border: 10px solid rgba(0, 0, 0, 0.8);
+	border-bottom: 20px solid rgba(0, 0, 0, 0.8);
+	border-radius: 30px;
+	// height: 90vw
 }
 
 .project-info {
@@ -30,32 +34,34 @@
 	text-align: center;
 	color: white;
 	padding: 40px;
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(242, 41, 78, 1);
 
 	h2 {
 		color: salmon;
+		font-weight: bold;
 	}
 
 	.links-container {
-		margin-top: 70px;
+		margin-top: 30px;
 	}
 
 	.link {
-		background-color: salmon;
-		border-radius: 30px;
-		// border: 2px solid white;
-		display: block;
+		// background-color: salmon;
+		// border-radius: 30px;
+		border: 2px solid white;
+		justify-content: space-between;
+		// display: block;
 		font-size: 20px;
-		margin: auto;
+		margin: 2px;
 		margin-bottom: 20px;
 		padding:3px;
 		text-decoration: none;
 		width: 30vw;
 
 		&:hover {
-			opacity: 0.8;
+			border-color: salmon;
 			// padding: 6px;
-			color: white;
+			color: salmon;
 		}
 	}
 }
@@ -69,7 +75,7 @@
 	} 
 
 	.gif {
-		width: 20vw;
+		width: 17vw;
 	}
 
 	.project-info {
