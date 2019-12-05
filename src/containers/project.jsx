@@ -4,12 +4,20 @@ import pet_now_gif from '../pet_now_gif.gif';
 class Project extends Component {
 
 	render() {
+		let src = "";
 
+		if(this.props.gif === "pet_now_gif") {
+			src = pet_now_gif;
+		} else if(this.props.gif === "gif_library_gif") {
+			
+		} else if(this.props.gif === "buddy_up_gif") {
+			
+		}	
 		
 		return(
 				// <iframe src="https://giphy.com/embed/YOejYetOAKjzLjvNOx" width="240" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 			<div className="gif-container">
-				<img className="gif" src={pet_now_gif} alt="Placeholder"/>
+				<img className="gif" src={src} alt="Placeholder"/>
 				<div className="project-info">
 					<h2>PetNow</h2>
 					<h5>AirBnb clone for renting comfort pets</h5>

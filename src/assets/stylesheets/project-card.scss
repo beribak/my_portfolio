@@ -15,7 +15,7 @@
 .gif-container {
 	padding: 20px;
 	text-align: center;
-	background-color: rgba(0, 0, 0, 0.8);
+	// background-color: rgba(0, 0, 0, 0.8);
 	margin-bottom: 10px;
 }
 
@@ -26,10 +26,11 @@
 .project-info {
 	margin-top: 10px;
 	word-wrap: break-word;
-	border: 2px solid white;
+	// border: 2px solid white;
 	text-align: center;
 	color: white;
 	padding: 40px;
+	background-color: rgba(0, 0, 0, 0.6);
 
 	h2 {
 		color: salmon;
@@ -40,17 +41,21 @@
 	}
 
 	.link {
-		margin: auto;
+		background-color: salmon;
+		border-radius: 30px;
+		// border: 2px solid white;
 		display: block;
-		border: 2px solid white;
-		text-decoration: none;
 		font-size: 20px;
+		margin: auto;
 		margin-bottom: 20px;
+		padding:3px;
+		text-decoration: none;
 		width: 30vw;
 
 		&:hover {
-			border-color: salmon;
-			color: salmon;
+			opacity: 0.8;
+			// padding: 6px;
+			color: white;
 		}
 	}
 }
@@ -75,6 +80,11 @@
 		text-align: center;
 		color: white;
 		padding: 70px;
+
+
+		.links-container {
+			margin-top: 70px;
+		}
 
 		.link {
 			width: 10vw;
