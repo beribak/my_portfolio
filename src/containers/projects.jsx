@@ -6,11 +6,13 @@ class Projects extends Component {
 
 	render() {
 
+		const link_pet_now = "https://petnow.herokuapp.com";
+		const src_pet_now =" https://github.com/khoa165/petNow"; 
 		return(
 			
 				<div className="projects-container">
 					<div className="projects-card-container" id="load" >
-						<Project gif="pet_now_gif" />
+						<Project gif="pet_now_gif" src={src_pet_now} link={link_pet_now}/>
 						<Project />
 						<Project /> 
 					</div>

@@ -13,7 +13,7 @@
 	margin-bottom: 40px;
 	padding-top: 150px;
 	color: white;
-	font-size: 50px;
+	font-size: 55px;
 	/*animation-name: slideInFromLeft;
 	animation-duration: 1s;
 	animation-iteration-count: 1;*/
@@ -32,9 +32,7 @@
 		color: white;
 		translate: 1s;
 
-		&:hover {
-			border: 3px solid salmon;
-		}	
+		
 		
 	}
 
@@ -54,14 +52,21 @@
 			/*transform: rotateX(180deg);*/
 			display: block;
 			opacity: 1;
-			color: salmon;
+			color: rgba(54, 63, 163, 1);
+			
 		}
+		
+		a {
+		border: 3px solid rgba(54, 63, 163, 1);
+		color: rgba(54, 63, 163, 1);
+		}	
 	};
 
 }
 
 .my-color {
-	color: salmon;
+	color: rgba(250, 75, 101, 1);
+	font-weight: bold;
 }
 
 /*

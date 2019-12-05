@@ -12,6 +12,7 @@
 
 		a {
 			margin-left: 15px;
+			font-size: 20px;
 		}
 	}
 
@@ -22,7 +23,7 @@
 		}
 
 		.git-nav {
-			font-size: 28px;
+			font-size: 30px;
 		}
 	}
 
@@ -30,10 +31,11 @@
 
 a {
 	color: white;
-	font-size: 18px;
+	// font-size: 18px;
 
 	&:hover {
-		color: salmon;
+		color: rgba(242, 41, 78, 1);
 		text-decoration: none;
+		font-weight: bold;
 	}
 }

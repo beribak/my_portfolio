@@ -25,8 +25,8 @@ class Project extends Component {
 					<h5>MVC architectural patern</h5>
 					<h5>CRUD</h5>
 					<div className="links-container">					
-						<a href="#" className="link">See Online</a>
-						<a href="#" className="link">Source</a>
+						<a href={this.props.link} target="#" className="link">See Online</a>
+						<a href={this.props.src} target="#" className="link">Source</a>
 					</div>
 				</div>
 			</div>
