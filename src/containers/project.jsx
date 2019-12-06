@@ -20,11 +20,8 @@ class Project extends Component {
 			<div className="gif-container">
 				<img className="gif" src={src} alt="Placeholder"/>
 				<div className="project-info">
-					<h2>PetNow</h2>
-					<h5>AirBnb clone for renting comfort pets</h5>
-					<h5>Build with Ruby on Rails, Javascript and Postgresql</h5>
-					<h5>MVC architectural patern</h5>
-					<h5>CRUD</h5>
+					<h2>{this.props.name}</h2>
+					<h5>{this.props.text}</h5>
 					<div className="links-container">					
 						<a href={this.props.link} target="#" className="link">See Online</a>
 						<a href={this.props.src} target="#" className="link">Source</a>

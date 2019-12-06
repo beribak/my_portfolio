@@ -2,14 +2,19 @@ const projects = [
 	{
 		imageUrl: "pic1", 
 		name: "buddyUp",
-		text: "mobile app for finding like-minded people",
+		text: "social networking application for finding like-minded people.\
+		Build with Build with Ruby on Rails, Javascript and Postgresql.\
+		MVC architectural pattern.\
+		WebSocket chat feature",
 		sourceLink: "https://github.com/khoa165/buddyUp",
 		projectLink: "https://buddyup.xyz"
 	},
 	{
 		imageUrl: "pic2", 
 		name: "PetNow",
-		text: "    app for renting comfort pets",
+		text: "PetNow AirBnb clone for renting comfort pets. \
+		 Build with Ruby on Rails, Javascript and Postgresql. \
+		 MVC architectural pattern",
 		sourceLink: "https://github.com/khoa165/petNow",
 		projectLink: "https://petnow.herokuapp.com"
 	},
