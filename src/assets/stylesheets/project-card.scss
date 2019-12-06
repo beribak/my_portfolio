@@ -34,10 +34,11 @@
 	text-align: center;
 	color: white;
 	padding: 40px;
-	background-color: rgba(242, 41, 78, 1);
+	background: linear-gradient(rgba(54, 63, 163, 1), rgba(242, 41, 78, 1)); 
+	// rgba(242, 41, 78, 1);
 
 	h2 {
-		color: rgba(54, 63, 163, 1);
+		color: rgba(242, 41, 78, 1);
 		font-weight: bold;
 	}
 
