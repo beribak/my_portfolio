@@ -8,7 +8,7 @@ class Projects extends Component {
 
 		const petNow = projects[1];
 		const buddyUp = projects[0];
-		const src_pet_now =" https://github.com/khoa165/petNow"; 
+		const gifLibrary = projects[2]; 
 		return(
 			
 				<div className="projects-container">
@@ -17,7 +17,8 @@ class Projects extends Component {
 						 name={petNow.name} src={petNow.sourceLink} link={petNow.projectLink} />
 						<Project gif="buddy_up_gif" text={buddyUp.text} 
 						 name={buddyUp.name} src={buddyUp.sourceLink} link={buddyUp.projectLink} />
-						<Project /> 
+						<Project gif="gif_library_gif" text={gifLibrary.text} 
+						 name={gifLibrary.name} src={gifLibrary.sourceLink} link={gifLibrary.projectLink} /> 
 					</div>
 				</div>				
 		);
