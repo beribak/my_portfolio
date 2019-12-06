@@ -13,7 +13,7 @@ class Projects extends Component {
 				<div className="projects-container">
 					<div className="projects-card-container" id="load" >
 						<Project gif="pet_now_gif" src={src_pet_now} link={link_pet_now}/>
-						<Project />
+						<Project gif="buddy_up_gif" />
 						<Project /> 
 					</div>
 				</div>				

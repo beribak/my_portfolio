@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import pet_now_gif from '../pet_now_gif.gif';
+import buddy_up_gif from '../buddyup_gif.gif';
 
 class Project extends Component {
 
@@ -11,7 +12,7 @@ class Project extends Component {
 		} else if(this.props.gif === "gif_library_gif") {
 			
 		} else if(this.props.gif === "buddy_up_gif") {
-			
+			src = buddy_up_gif;
 		}	
 		
 		return(
