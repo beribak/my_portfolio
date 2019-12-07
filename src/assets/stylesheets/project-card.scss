@@ -8,18 +8,20 @@
 .projects-card-container {
 	padding: 10px;
 	margin: auto;
-	// background-color: black;
-	width: 70vw;
+	text-align: center;
+	width: 90vw;
 }
 	
 .gif-container {
 	padding: 20px;
 	text-align: center;
+	// margin: auto;
 	// background-color: rgba(0, 0, 0, 0.8);
 	margin-bottom: 10px;
 }
 
 .gif {
+	text-align: center;
 	width: 50vw;
 	border: 10px solid rgba(0, 0, 0, 0.8);
 	border-bottom: 20px solid rgba(0, 0, 0, 0.8);
@@ -28,9 +30,11 @@
 }
 
 .project-info {
+	// margin: auto;
 	margin-top: 10px;
 	word-wrap: break-word;
 	// border: 2px solid white;
+	// width: 70vw;
 	text-align: center;
 	color: white;
 	padding: 40px;
