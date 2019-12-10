@@ -9,7 +9,7 @@
 	padding: 10px;
 	margin: auto;
 	text-align: center;
-	width: 80vw;
+	width: 90vw;
 }
 	
 .gif-container {
@@ -43,7 +43,7 @@
 	// rgba(242, 41, 78, 1);
 
 	h2 {
-		color: rgba(242, 41, 78, 1);
+		// color: rgba(242, 41, 78, 1);
 		font-weight: bold;
 	}
 
@@ -73,6 +73,13 @@
 }
 
 @media screen and (min-width: 640px){
+
+    .projects-card-container {
+		padding: 10px;
+		margin: auto;
+		text-align: center;
+		width: 65vw;
+	}
 
     .gif-container {
 		display: flex;
