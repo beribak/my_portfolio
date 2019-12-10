@@ -1,7 +1,7 @@
 
 .projects-container {
 	/*width: 100vw;*/
-	background-color: rgba(200, 200, 200, 0.7);
+	// background-color: rgba(200, 200, 200, 0.7);
 	padding: 30px 0px;
 }
 
@@ -9,7 +9,7 @@
 	padding: 10px;
 	margin: auto;
 	text-align: center;
-	width: 90vw;
+	width: 80vw;
 }
 	
 .gif-container {
@@ -24,7 +24,8 @@
 	text-align: center;
 	width: 50vw;
 	border: 10px solid rgba(0, 0, 0, 0.8);
-	border-bottom: 20px solid rgba(0, 0, 0, 0.8);
+	border-top: 23px solid rgba(0, 0, 0, 0.8);
+	border-bottom: 25px solid rgba(0, 0, 0, 0.8);
 	border-radius: 30px;
 	// height: 90vw
 }
@@ -36,9 +37,9 @@
 	// border: 2px solid white;
 	// width: 70vw;
 	text-align: center;
-	color: white;
+	// color: white;
 	padding: 40px;
-	background: linear-gradient(rgba(54, 63, 163, 1), rgba(242, 41, 78, 1)); 
+	// background: linear-gradient(rgba(54, 63, 163, 1), rgba(242, 41, 78, 1)); 
 	// rgba(242, 41, 78, 1);
 
 	h2 {
@@ -47,7 +48,7 @@
 	}
 
 	.links-container {
-		margin-top: 30px;
+		margin-top: 20px;
 	}
 
 	.link {
@@ -89,12 +90,12 @@
 		margin-top: 0px;
 		word-wrap: break-word;
 		text-align: center;
-		color: white;
+		// color: white;
 		padding: 70px;
 
 
 		.links-container {
-			margin-top: 70px;
+			margin-top: 30px;
 		}
 
 		.link {
