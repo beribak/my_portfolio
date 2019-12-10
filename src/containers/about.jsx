@@ -12,8 +12,8 @@ class About extends Component {
 					<h5>I am a web developer based in the San Fernando Valley.
 						I have knowledge of various modern frameworks and libraries,
 						and a serious passion for building responsive, dynamic and fast web applications.
-						I have learned to code in mostly Ruby and Javascript but I am eager to learn new technologies and
-						adapt my knowldege of programing concepts in multiple languages.
+						I have learned to code in mostly Ruby and Javascript but I am eager to learn new 
+						technologies and adapt my knowledge of programming concepts in multiple languages.
 					</h5>
 				</div>
 				
